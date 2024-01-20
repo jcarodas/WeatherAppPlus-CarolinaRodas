@@ -10,17 +10,15 @@ body {
   border-radius: 20px;
   box-shadow: 10px 10px 20px rgba(95, 91, 91, 0.2);
 }
-h2 {
+h1 {
   font-family: "Varela Round", sans-serif;
+  font-size: 45px;
 }
-.city-temperature {
-  font-family: "Varela Round", sans-serif;
-  font-size: 30px;
-}
+
 .search-form {
   position: relative;
   left: 300px;
-  bottom: 45px;
+  bottom: 05px;
 }
 .search-form-input {
   background: #ddeedf;
