@@ -1,6 +1,6 @@
 body {
   background: #f2f9f1;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Prompt", sans-serif;
 }
 .weather-app {
   background: white;
@@ -9,4 +9,7 @@ body {
   padding: 30px;
   border-radius: 20px;
   box-shadow: 10px 10px 20px rgba(95, 91, 91, 0.2);
+}
+h1 h2 {
+  font-family: "Varela Round", sans-serif;
 }
