@@ -17,9 +17,20 @@ h2 {
   font-family: "Varela Round", sans-serif;
 }
 .search-form-input {
-  background: #f2f9f1;
+  background: #ddeedf;
   border-radius: 5px;
   font-size: 14px;
-  width: 50%;
-  padding: 15px 20px;
+  width: 40%;
+  padding: 10px 10px;
+  border: none;
+  font-family: "Prompt", sans-serif;
+}
+.search-form-button {
+  background: #5c715e;
+  border-radius: 5px;
+  font-size: 14 px;
+  color: #f2f9f1;
+  padding: 10px 10px;
+  border: none;
+  font-family: "Prompt", sans-serif;
 }
