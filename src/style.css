@@ -18,10 +18,12 @@ h1 {
   margin: 0 auto;
   position: relative;
   bottom: 3px;
+  color: black;
 }
 h2 {
   font-size: 50px;
   margin: 0px 10px 0px 10px;
+  color: black;
 }
 .search-form {
   margin: 5 px 15px 15px 30px;
@@ -46,8 +48,15 @@ h2 {
   font-family: "Prompt", sans-serif;
 }
 .weather-details {
-  position: relataive;
-  left: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.weather-details-specific {
+  position: relative;
+  left: 20px;
+  font-size: 15px;
+  color: #5c715e;
+  font-weight: 400;
 }
 footer {
   font-size: 12px;
