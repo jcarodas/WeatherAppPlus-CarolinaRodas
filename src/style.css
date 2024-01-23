@@ -78,10 +78,9 @@ body {
 }
 footer {
   font-size: 12px;
-  padding: 30px 0px 0px;
+  text-align: center;
   position: relative;
-  left: 425px;
-  bottom: 115px;
+  bottom: 80px;
 }
 a {
   color: #5c715e;
