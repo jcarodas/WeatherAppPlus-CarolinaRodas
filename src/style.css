@@ -56,7 +56,8 @@ body {
   font-family: "Prompt", sans-serif;
 }
 .weather-icon {
-  font-size: 40px;
+  width: 80px;
+  height: 80px;
   margin-left: 15px;
 }
 .weather-details-specific {
