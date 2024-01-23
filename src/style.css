@@ -67,6 +67,14 @@ body {
   left: 275px;
   bottom: 75px;
 }
+.humidity {
+  font-weight: 600;
+  color: #86a014;
+}
+.wind {
+  font-weight: 600;
+  color: #86a014;
+}
 footer {
   font-size: 12px;
   padding: 30px 0px 0px;
