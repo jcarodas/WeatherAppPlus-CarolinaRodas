@@ -17,6 +17,7 @@ body {
   font-size: 45px;
   margin: 20px 10px 10px 5px;
   color: black;
+  font-weight: 500;
 }
 
 .search-form {
