@@ -42,6 +42,9 @@ body {
   border: none;
   font-family: "Prompt", sans-serif;
 }
+.weather-details-general {
+  display: flex;
+}
 .weather-details {
   display: flex;
   margin-left: 50px;
@@ -64,9 +67,7 @@ body {
   font-size: 15px;
   color: #5c715e;
   font-weight: 400;
-  position: relative;
-  left: 275px;
-  bottom: 75px;
+  margin-left: 60px;
 }
 .humidity {
   font-weight: 600;
@@ -75,6 +76,21 @@ body {
 .wind {
   font-weight: 600;
   color: #86a014;
+}
+.weather-forecast {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.weather-forecast-day {
+  color: #5c715e;
+  font-size: 15px;
+}
+.weather-forecast-temperatures {
+  color: #5c715e;
+  font-size: 13px;
+}
+.weather-forecast-temperature-max {
+  font-weight: bold;
 }
 footer {
   font-size: 12px;

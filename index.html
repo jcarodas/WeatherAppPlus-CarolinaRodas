@@ -30,6 +30,7 @@
         <div class="weather-city" id="weather-city"></div>
       </header>
       <main>
+        <div class="weather-details-general">
         <div class="weather-details">
           <span class="weather-temperature" id="weather-temperature"></span>
           <span class="weather-unit">℃</span> <span class="weather-icon" id="weather-icon">☁</span>
@@ -40,8 +41,19 @@
             <span id="weather-description"></span> <br />
             Humidity: <span class="humidity" id="humidity"></span>% Wind: <span class="wind" id="wind"></span> km/h
           </div>
+          </div>
+          <div class="weather-forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-day">Thu</div>
+                <div class="weather-forecast-icon"><img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png" width="40" /></div>
+                <div class="weather-forecast-temperatures"><span class="weather-forecast-temperature-max">18°</span> <span class="weather-forecast-temperature-min"> 12°</span></div> 
+              </div>
+            </div>
+          </div>
         </div>
-         <footer>
+      </main>
+      <footer>
         Coded by
         <a href="https://github.com/jcarodas" target="_blank">Carolina Rodas</a
         >,
@@ -55,8 +67,6 @@
           >hosted on Netlify.</a
         >
       </footer>
-      </main>
-     
     </div>
     <script src="src/index.js"></script>
   </body>
