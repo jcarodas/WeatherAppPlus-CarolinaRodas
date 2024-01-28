@@ -78,12 +78,15 @@ body {
   color: #86a014;
 }
 .weather-forecast {
-  margin-top: 0;
   margin-bottom: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 .weather-forecast-day {
   color: #5c715e;
   font-size: 15px;
+  display: flex;
 }
 .weather-forecast-temperatures {
   color: #5c715e;
