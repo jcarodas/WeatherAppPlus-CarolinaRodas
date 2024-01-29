@@ -86,7 +86,6 @@ body {
 .weather-forecast-day {
   color: #5c715e;
   font-size: 15px;
-  display: flex;
 }
 .weather-forecast-temperatures {
   color: #5c715e;
@@ -94,6 +93,7 @@ body {
 }
 .weather-forecast-temperature-max {
   font-weight: bold;
+  color: #86a014;
 }
 footer {
   font-size: 12px;
